@@ -10,5 +10,10 @@ namespace GithubTestProject.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+
+        //added
+
+        public string TestNumber    { get; set; }
+        public DateTime Date { get; set; }
     }
 }
