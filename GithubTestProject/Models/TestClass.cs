@@ -15,5 +15,9 @@ namespace GithubTestProject.Models
 
         public string TestNumber    { get; set; }
         public DateTime Date { get; set; }
+
+        //added 2 for second push
+
+        public int BankAccount { get; set; }
     }
 }
